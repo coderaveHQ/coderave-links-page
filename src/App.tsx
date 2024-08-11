@@ -1,6 +1,7 @@
 import { Avatar, AvatarImage, AvatarFallback } from "@/components/ui/avatar"
 import { Button } from "@/components/ui/button"
 import { Card } from "@/components/ui/card"
+import { FaInstagram, FaTwitter, FaLinkedin, FaGithub } from 'react-icons/fa';
 
 import coderaveLogoDark from './assets/coderave-dark.svg'
 import coderaveLogoLight from './assets/coderave-light.svg'
@@ -27,13 +28,16 @@ function App() {
           <h2 className="text-xl font-semibold mb-4 text-neutral-950 dark:text-neutral-50">Socials</h2>
           <div className="flex flex-col space-y-3">
             <Button className="flex items-center justify-center w-full">
-              Instagram
+              <FaInstagram className="mr-2" /> Instagram
             </Button>
             <Button className="flex items-center justify-center w-full">
-              Twitter
+              <FaTwitter className="mr-2" /> Twitter
             </Button>
             <Button className="flex items-center justify-center w-full">
-              LinkedIn
+              <FaGithub className="mr-2" /> GitHub
+            </Button>
+            <Button className="flex items-center justify-center w-full">
+              <FaLinkedin className="mr-2" /> LinkedIn
             </Button>
           </div>
         </Card>
