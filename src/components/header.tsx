@@ -1,10 +1,11 @@
-import { FaGlobe, FaBlog } from 'react-icons/fa6';
+import { FaGlobe, FaBlog, FaCircleCheck } from "react-icons/fa6"
 
 import { Avatar, AvatarImage, AvatarFallback } from "@/components/ui/avatar"
 import { Button } from "@/components/ui/button"
+import { TooltipProvider, Tooltip, TooltipTrigger, TooltipContent } from "@/components/ui/tooltip"
 
-import coderaveLogoDark from '@/assets/coderave-dark.svg'
-import coderaveLogoLight from '@/assets/coderave-light.svg'
+import coderaveLogoDark from "@/assets/coderave-dark.svg"
+import coderaveLogoLight from "@/assets/coderave-light.svg"
 
 function Header() {
   return (
@@ -17,8 +18,21 @@ function Header() {
       </Avatar>
 
       {/* Info Text */}
-      <h1 className="text-2xl font-bold mb-2 text-neutral-950 dark:text-neutral-50">coderaveHQ</h1>
-      <p className="text-neutral-700 dark:text-neutral-300 mb-6 text-center max-w-md">
+      <h2 className="text-3xl font-bold mb-2 flex items-center text-neutral-900 dark:text-neutral-100">
+        coderave
+        <TooltipProvider>
+          <Tooltip>
+            <TooltipTrigger>
+              <FaCircleCheck className="ml-2 h-4 w-4" />
+            </TooltipTrigger>
+            <TooltipContent>
+              <p>Verified</p>
+            </TooltipContent>
+          </Tooltip>
+        </TooltipProvider>
+
+      </h2>
+      <p className="mb-6 text-center max-w-md text-neutral-700 dark:text-neutral-300">
         We are a team of developers who love to code and share our knowledge with the world.
       </p>
 
