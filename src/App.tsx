@@ -1,5 +1,5 @@
 import Header from "@/components/header";
-import SocialsCard from '@/components/socials-card'
+import SocialsCard from "@/components/socials-card"
 
 function App() {
   return (
