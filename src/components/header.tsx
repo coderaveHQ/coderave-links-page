@@ -1,4 +1,4 @@
-import { FaGlobe, FaBlog } from 'react-icons/fa';
+import { FaGlobe, FaBlog } from 'react-icons/fa6';
 
 import { Avatar, AvatarImage, AvatarFallback } from "@/components/ui/avatar"
 import { Button } from "@/components/ui/button"

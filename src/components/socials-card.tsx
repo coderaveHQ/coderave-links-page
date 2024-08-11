@@ -1,4 +1,4 @@
-import { FaInstagram, FaTwitter, FaLinkedin } from 'react-icons/fa';
+import { FaInstagram, FaXTwitter, FaLinkedin } from 'react-icons/fa6';
 
 import { Button } from "@/components/ui/button"
 import { Card, CardHeader, CardTitle, CardDescription, CardContent } from "@/components/ui/card"
@@ -15,7 +15,7 @@ function SocialsCard() {
           <FaInstagram className="mr-2 h-4 w-4" /> Instagram
         </Button>
         <Button className="flex items-center justify-center w-full">
-          <FaTwitter className="mr-2 h-4 w-4" /> Twitter
+          <FaXTwitter className="mr-2 h-4 w-4" /> Twitter
         </Button>
         <Button className="flex items-center justify-center w-full">
           <FaLinkedin className="mr-2 h-4 w-4" /> LinkedIn
