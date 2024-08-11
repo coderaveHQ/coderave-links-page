@@ -19,7 +19,7 @@ function Header() {
       {/* Info Text */}
       <h1 className="text-2xl font-bold mb-2 text-neutral-950 dark:text-neutral-50">coderaveHQ</h1>
       <p className="text-neutral-700 dark:text-neutral-300 mb-6 text-center max-w-md">
-        Welcome to coderaveHQ! We are a team of developers who love to code and share our knowledge with the world.
+        We are a team of developers who love to code and share our knowledge with the world.
       </p>
 
       {/* Website and Blog Links */}
