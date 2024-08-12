@@ -1,4 +1,4 @@
-import { FaGlobe, FaBlog, FaCircleCheck } from "react-icons/fa6"
+import { FaGlobe, FaBlog, FaCircleCheck, FaEnvelope } from "react-icons/fa6"
 
 import { Avatar, AvatarImage, AvatarFallback } from "@/components/ui/avatar"
 import { Button } from "@/components/ui/button"
@@ -37,8 +37,8 @@ function Header() {
       </p>
 
       {/* Website and Blog Links */}
-      <div className="flex flex-row max-w-md mb-6 text-neutral-950 dark:text-neutral-50">
-        <a href="https://coderave.dev/" target="_blank" rel="noopener noreferrer" className="mr-4">
+      <div className="flex flex-row max-w-md mb-6 text-neutral-950 dark:text-neutral-50 space-x-4">
+        <a href="https://coderave.dev/" target="_blank" rel="noopener noreferrer">
           <Button variant="outline" className="flex items-center justify-center w-full">
             <FaGlobe className="mr-2 h-4 w-4" /> Website
           </Button>
@@ -46,6 +46,11 @@ function Header() {
         <a href="https://coderave.dev/blog/" target="_blank" rel="noopener noreferrer">
           <Button variant="outline" className="flex items-center justify-center w-full">
             <FaBlog className="mr-2 h-4 w-4" /> Blog
+          </Button>
+        </a>
+        <a href="mailto:hello@coderave.dev" target="_blank" rel="noopener noreferrer">
+          <Button variant="outline" size="icon">
+            <FaEnvelope className="h-4 w-4" />
           </Button>
         </a>
       </div>
