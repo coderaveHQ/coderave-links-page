@@ -5,7 +5,7 @@ function App() {
   return (
     <>
       <div className="h-[50rem] min-h-screen w-full dark:bg-neutral-950 bg-neutral-50  dark:bg-dot-neutral-50/[0.2] bg-dot-neutral-950/[0.2]">
-        <div className="absolute inset-0 dark:bg-neutral-950 bg-neutral-50 [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)]"></div>
+        <div className="absolute min-h-screen inset-0 dark:bg-neutral-950 bg-neutral-50 [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)]"></div>
         <div className="z-20 min-h-screen relative flex flex-col items-center justify-center">
           {/* Header Section */}
           <Header />
