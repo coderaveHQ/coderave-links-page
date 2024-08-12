@@ -1,4 +1,5 @@
 import Header from "@/components/header";
+import Footer from "@/components/footer";
 import SocialsCard from "@/components/socials-card"
 
 function App() {
@@ -12,6 +13,9 @@ function App() {
 
           {/* Socials Section */}
           <SocialsCard />
+
+          {/* Footer Section */}
+          <Footer />
         </div>
       </div>
     </>
