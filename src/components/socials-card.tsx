@@ -12,12 +12,12 @@ function SocialsCard() {
       </CardHeader>
       <CardContent>
         <a href="https://instagram.com/coderave.dev/" target="_blank" rel="noopener noreferrer">
-          <Button className="flex items-center justify-center w-full mb-4">
+          <Button id="instagram-button" data-umami-event="Instagram Button" className="flex items-center justify-center w-full mb-4">
             <FaInstagram className="mr-2 h-4 w-4" /> Instagram
           </Button>
         </a>
         <a href="https://x.com/coderavedev/" target="_blank" rel="noopener noreferrer">
-          <Button className="flex items-center justify-center w-full">
+          <Button id="twitter-button" data-umami-event="Twitter Button" className="flex items-center justify-center w-full">
             <FaXTwitter className="mr-2 h-4 w-4" /> Twitter
           </Button>
         </a>
