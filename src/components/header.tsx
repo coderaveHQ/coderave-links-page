@@ -39,17 +39,17 @@ function Header() {
       {/* Website and Blog Links */}
       <div className="flex flex-row max-w-md mb-6 text-neutral-950 dark:text-neutral-50 space-x-4">
         <a href="https://coderave.dev/" target="_blank" rel="noopener noreferrer">
-          <Button variant="outline" className="flex items-center justify-center w-full">
+          <Button id="website-button" data-umami-event="Website Button" variant="outline" className="flex items-center justify-center w-full">
             <FaGlobe className="mr-2 h-4 w-4" /> Website
           </Button>
         </a>
         <a href="https://coderave.dev/blog/" target="_blank" rel="noopener noreferrer">
-          <Button variant="outline" className="flex items-center justify-center w-full">
+          <Button id="blog-button" data-umami-event="Blog Button" variant="outline" className="flex items-center justify-center w-full">
             <FaBlog className="mr-2 h-4 w-4" /> Blog
           </Button>
         </a>
         <a href="mailto:hello@coderave.dev" target="_blank" rel="noopener noreferrer">
-          <Button variant="outline" size="icon">
+          <Button id="email-button" data-umami-event="Email Button" variant="outline" size="icon">
             <FaEnvelope className="h-4 w-4" />
           </Button>
         </a>
