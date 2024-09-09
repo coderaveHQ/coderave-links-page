@@ -49,8 +49,8 @@ importers:
         version: 1.0.7(tailwindcss@3.4.10)
     devDependencies:
       '@eslint/js':
-        specifier: ^9.8.0
-        version: 9.9.0
+        specifier: ^9.10.0
+        version: 9.10.0
       '@types/node':
         specifier: ^22.5.4
         version: 22.5.4
@@ -349,10 +349,6 @@ packages:
 
   '@eslint/js@9.10.0':
     resolution: {integrity: sha512-fuXtbiP5GWIn8Fz+LWoOMVf/Jxm+aajZYkhi6CuEm4SxymFM+eUWzbO9qXT+L0iCkL5+KGYMCSGxo686H19S1g==}
-    engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
-
-  '@eslint/js@9.9.0':
-    resolution: {integrity: sha512-hhetes6ZHP3BlXLxmd8K2SNgkhNSi+UcecbnwWKwpP7kyi/uC75DJ1lOOBO3xrC4jyojtGE3YxKZPHfk4yrgug==}
     engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
 
   '@eslint/object-schema@2.1.4':
@@ -1929,8 +1925,6 @@ snapshots:
       - supports-color
 
   '@eslint/js@9.10.0': {}
-
-  '@eslint/js@9.9.0': {}
 
   '@eslint/object-schema@2.1.4': {}
 
